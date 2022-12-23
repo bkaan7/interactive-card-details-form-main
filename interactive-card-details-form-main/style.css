@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Space Grotesk', sans-serif!important;
+}
+
+.container{
+    display: flex;
+}
+
+.cardArea{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formArea{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardBack{
+    margin-left:140px;
+    width:400px;
+    margin-top: 50px;
+}
+
+.cardFront{
+    width: 400px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.kisa{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.kisa2{
+    width: 50px;
+    margin-right: 61px;
+}
+
+.inputform1{
+    width: 370px;
+}
+
+.btn{
+    background-color: hsl(278, 68%, 11%)!important;
+    color: white!important;
+    width: 370px;
+
+}
+
+.orta{
+    margin-left: 7px;
+    width: 180px;
+}
+
+/* .cardNameError{
+    width: 370px;
+    font-size: 11px;
+    height: 15px;
+    visibility: ;
+} */
+
+.cardNumberError{
+    width: 370px;
+    font-size: 11px;
+    visibility: hidden;
+
+}
+
+/* 
+
+nameArea
+numberArea
+dateArea
+
+*/
+
+.nameArea{
+    position: absolute;
+    top: 260px;
+    left: 145px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.numberArea{
+    width: 310px;
+    position: absolute;
+    top: 200px;
+    left: 145px;
+    text-transform: uppercase;
+
+}
+
+
+.dateArea{
+    width: 45px;
+    position: absolute;
+    top: 260px;
+    left: 445px;
+    font-size: 10px;
+}
+
+.cvcArea {
+    width: 45px;
+    position: absolute;
+    top: 452px;
+    left: 590px;
+    
+}
